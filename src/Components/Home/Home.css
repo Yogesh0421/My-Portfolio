@@ -62,7 +62,7 @@ p{
 
 @media screen and (max-width:400px) {
     .text-container{
-        max-width: 80%;
+        max-width: 90%;
         padding: 20px;
     }
 }
