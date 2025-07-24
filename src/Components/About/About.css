@@ -50,8 +50,9 @@
         opacity 0.4s ease,
         transform 0.4s ease;
     z-index: 1000;
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 90vw; /* Responsive width on small devices */
+    white-space: normal; /
+    /* word-break: break-word;  */
 }
 
 .imgs .img:hover::after {
