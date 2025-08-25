@@ -10,7 +10,7 @@ import figma from '../../assets/Demo.png'
 const Project = () => {
   return (
     <section className='section project' id='project'>
-      <h1>Check out my work and Projects</h1>
+      <h1 className='headings'>Check out my work and Projects</h1>
         <div className="projects">
           <ProjectCard  img={foodapp} name={"Food Order App"} language={"HTML & CSS"} preview={"https://yogesh0421.github.io/Food-order-React/"} 
                       language1={"React"} code={"https://github.com/Yogesh0421/Food-order-React"}/>

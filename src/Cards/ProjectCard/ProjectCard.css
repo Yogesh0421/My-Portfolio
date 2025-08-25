@@ -31,4 +31,9 @@
     padding: 5px 10px;
     border:2px solid var(---color-secondry);
     border-radius:5px ;
+    cursor: pointer;
+}
+
+.project-card button:hover{
+    background-color: #e6e2e2e5;
 }

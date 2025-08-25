@@ -60,6 +60,7 @@ ul li:hover{
 
 .btn:hover{
     background-color: #abbcdabe;
+    color: #fff;
 }
 
 .toggle{

@@ -12,10 +12,11 @@ const Service = () => {
     let dubugingText = 'Identifying and fixing issues to ensure smooth and efficient functionality. Delivering error-free solutionswith precision and expertise!'
   return (
     <section className='section service' id='service'>
-        <h1>Provide wide Range of  Web Services</h1>
+        <h1 className='headings'>Provide wide Range of  Web Services</h1>
         <div className="service-grid">
             <ServiceCard  img={design} name={"Web Design"} text={designText}/>
             <ServiceCard  img={development} name={"Web Development"} text={developmentText}/>
+            <ServiceCard  img={debug} name={"Debugging"} text={designText}/>
             <ServiceCard  img={debug} name={"Debugging"} text={designText}/>
         </div>
     </section>

@@ -8,6 +8,22 @@
     flex-direction: column;
     gap: var(---large-gap);
     border-radius: 5px;
+    position: relative;
+    animation: text-appear 1s linear;
+}
+
+@keyframes text-appear{
+
+    from{
+        opacity: 0;
+        clip-path: inset(100% 100% 0 0);
+        scale: 0;
+    }
+    to{
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+        scale: 1;
+    }
 }
 
 .img-container{
@@ -15,7 +31,22 @@
     border-radius: 5px;
     max-width: 40%;
     padding: 20px;
+    animation: appear 1s linear forwards;
+    transform-origin: center;
+
 }
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 
 .img-container img{
     width: 100%;
@@ -33,6 +64,8 @@ h1 .name{
 
 p{
     font-size: 1.2rem;
+
+
 }
 
 .hire-btn{
@@ -44,10 +77,16 @@ p{
     background-color: #fff;
     border-radius: 5px;
     cursor: pointer;
+
+
 }
+
+
+
 
 .hire-btn:hover{
     background-color: #abbcdabe;
+    color: #fff;
 }
 
 @media screen and (max-width:800px) {

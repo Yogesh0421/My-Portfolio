@@ -16,7 +16,7 @@ const About = () => {
   return (
     
     <section className='section about' id='about'>
-        <h1>Beautiful & Unique Digital Experiences</h1>
+        <h1 className='headings'>Beautiful & Unique Digital Experiences</h1>
         <div>
             <div className="imgs">
                 <div className="img" tooltipText={htmlText}><img src={html} alt="" width={100}/></div>
@@ -26,11 +26,11 @@ const About = () => {
             </div>
             <div className="texts">
                 <h2>My Skills</h2>
-                <li>I am proficient in HTML and CSS, enabling me to create visually appealing and responsive web pages</li>
-                <li>With strong knowledge of JavaScript, I build dynamic and interactive user interfaces.</li>
-                <li>I specialize in React.js for developing modern, scalable front-end applications.</li>
-                <li>I have experience with MySQL, effectively managing and querying relational databases.</li>
-                <li>Additionally, I am skilled in Java, excelling in problem-solving and logic-based programming.</li>
+                <li>I am proficient in <span>HTML</span>  and <span>CSS</span>, enabling me to create visually appealing and responsive web pages</li>
+                <li>With strong knowledge of <span>JavaScript</span>, I build dynamic and interactive user interfaces.</li>
+                <li>I specialize in <span>React.js</span> for developing modern, scalable front-end applications.</li>
+                <li>I have experience with <span>MySQL</span>, effectively managing and querying relational databases.</li>
+                <li>Additionally, I am skilled in <span>Java</span>, excelling in problem-solving and logic-based programming.</li>
             </div>
         </div>
     </section>
